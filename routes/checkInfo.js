@@ -5,7 +5,7 @@ const mysql = require("mysql");
 const bodyparser = require("body-parser");
 const multer = require("multer");
 const crypto = require("crypto-js");
-const SecretKey = "Eb+hBV[{t8<,nW_&9Su{=Svgr[CW$654";
+const bodyparser = "";
 const seKey = require("../config/KoreaEmergency");
 const upload = multer();
 router.use(upload.array());
