@@ -12,7 +12,7 @@ router.use(upload.array());
 const connection = require("../config/mysql");
 const nodeRsa = require("node-rsa");
 const crypto = require("crypto-js");
-const SecretKey = "Eb+hBV[{t8<,nW_&9Su{=Svgr[CW$654";
+const bodyParser = "";
 
 router.post("/emQRUpload", (req, res) => {
   try {
