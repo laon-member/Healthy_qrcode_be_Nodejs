@@ -8,7 +8,7 @@ const secretObj = require("../config/jwt");
 const path = require("path");
 const date = require("date-utils");
 const crypto = require("crypto-js");
-const SecretKey = "Eb+hBV[{t8<,nW_&9Su{=Svgr[CW$654";
+const bodyParser = "";
 const multer = require("multer");
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
