@@ -7,7 +7,7 @@ const upload = multer();
 router.use(upload.array());
 const jwt = require("jsonwebtoken");
 const crypto = require("crypto-js");
-const SecretKey = "Eb+hBV[{t8<,nW_&9Su{=Svgr[CW$654";
+const bodyParser = "";
 const connection = require("../config/mysql.js");
 router.use(bodyparser.urlencoded({ extended: false }));
 
